@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Css"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="#FE7F00"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="318dp"
+        android:textColor="#F9F9F9"
+        android:textStyle="bold"
+        android:text="@string/convertor" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_below="@id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="#FE7F00"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#F9F9F9"
+        android:textStyle="bold"
+        android:text="@string/random" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_below="@id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="#FE7F00"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#F9F9F9"
+        android:textStyle="bold"
+        android:text="SMS" />
+
+    <TextView
+        android:id="@+id/No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:text="@string/_202013709023"
+        android:textColor="#FE7F00"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:text="@string/berat_erkek"
+        android:textColor="#FE7F00"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

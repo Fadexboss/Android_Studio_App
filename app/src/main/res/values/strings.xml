@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="berat_erkek">Berat ERKEK</string>
+    <string name="_202013709023">202013709023</string>
+    <string name="convertor">Convertor</string>
+    <string name="random">Random</string>
+    <string name="sms">SMS</string>
+    <string-array name="base_options">
+        <item>İkilik</item>
+        <item>Sekizlik</item>
+        <item>Onaltılık</item>
+    </string-array>
+    <string-array name="conversion_types">
+        <item>Kilobyte</item>
+        <item>Byte</item>
+        <item>Kibibyte</item>
+        <item>Bit</item>
+    </string-array>
+</resources>
